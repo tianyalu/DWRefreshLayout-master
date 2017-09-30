@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_simple"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ufo.sample.SimpleActivity">
+
+
+    <com.ufo.dwrefresh.view.DWRefreshLayout
+        android:id="@+id/dwRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#11000000"
+            android:gravity="center"
+            android:text="我是TextView"
+            android:textSize="25dp"/>
+
+    </com.ufo.dwrefresh.view.DWRefreshLayout>
+
+    <Button
+        android:id="@+id/tv_false"
+        android:layout_width="wrap_content"
+        android:text="手动关闭测试"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
